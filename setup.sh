@@ -10,6 +10,7 @@ while [ $time_didnt_elapse="1" ] ; do
 	if [ $SECONDS = "10" ]; then
 		echo "Time to take a break!"
 		time_didnt_elapse="0"
+		break
 	fi
 done
 
